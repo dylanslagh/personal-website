@@ -23,7 +23,7 @@
             margin-right: 20px;
             margin-bottom: 20px;
             border-radius: 5px;
-            max-width: 10%;
+            max-width: 20%;
             height: auto;
         }
         a {
@@ -33,6 +33,13 @@
         a:hover {
             color: #000;
             text-decoration: underline;
+        }
+
+        /* Media query for smaller screens */
+        @media screen and (max-width: 768px) {
+            img {
+                max-width: 40%;
+            }
         }
     </style>
 </head>
